@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-handwriting {
+  font-family: 'Kalam', 'Caveat', cursive, sans-serif;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+.notebook-paper-ruled {
+  background-color: #fffdf5;
+  background-image: repeating-linear-gradient(transparent, transparent 31px, #e8dfcf 32px);
+  line-height: 32px;
+}
+
+.notebook-margin-line {
+  border-left: 2px solid #f87171;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}

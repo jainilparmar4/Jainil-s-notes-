@@ -1,0 +1,8 @@
+{
+  "name": "Jainil's Notes",
+  "description": "Comprehensive premium study notes, board questions with answers, topper handwritten notes, AI animated video lessons with 4K simulations, and formula sheets for Classes 9th, 10th, 11th, and 12th.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
